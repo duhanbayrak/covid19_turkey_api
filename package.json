@@ -1,0 +1,25 @@
+{
+  "name": "covid_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cron": "^1.8.2",
+    "express": "^4.17.2",
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "moment-timezone": "^0.5.34",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "scraperapi-sdk": "^1.0.6"
+  }
+}
