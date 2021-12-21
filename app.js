@@ -53,7 +53,7 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
 
     console.log(data)
 
-    fs.writeFile('data.json', covidData, function (err) {
+    fs.writeFile('./dataset/data.json', covidData, function (err) {
         if (err)
             console.log(err);
         else
