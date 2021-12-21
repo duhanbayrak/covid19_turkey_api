@@ -49,7 +49,7 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
         total_vaccines: total_vaccines
     }
 
-    var covidData = JSON.stringify(data,null,4));
+    var covidData = JSON.stringify(data,null,4);
 
     console.log(data)
 
