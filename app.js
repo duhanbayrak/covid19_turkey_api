@@ -7,7 +7,7 @@ const express = require('express'),
     nodemon = require("nodemon"),
     request = require('request'),
     cheerio = require('cheerio'),
-    fs = require('file-system');
+    fs = require('fs');
 
 
 app.use(express.static("public"));
@@ -51,15 +51,19 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
 
     var covidData = JSON.stringify(data);
 
+    console.log(data)
 
     fs.writeFile('data.json', covidData, function (err) {
         if (err)
             console.log(err);
         else
             console.log('Dosyaya başarıyla yazıldı.');
+            
     });
 
 })
 
 
-app.listen(PORT, () => console.log(`Example app listening on port port! ${PORT}`));
+app.listen(PORT, () => console.log(`Example app listening on port!`));
+
+
