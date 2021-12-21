@@ -36,18 +36,18 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
         third_vaccines = $('.doz3asisayisi').text(),
         total_vaccines = $('.toplamasidozusayisi').text();
 
-    let data = {
+    const data = {
         date: date,
-        todayCases: todayCases,
-        todayDeaths: todayDeaths,
-        todayRecovered: todayRecovered,
-        todayTests: todayTests,
+        todayCases: Number(todayCases),
+        todayDeaths: Number(todayDeaths),
+        todayRecovered: Number(todayRecovered),
+        todayTests: Number(todayTests),
         first_vaccines_ratio: first_vaccines_ratio,
         second_vaccines_ratio: second_vaccines_ratio,
-        first_vaccines: first_vaccines,
-        second_vaccines: second_vaccines,
-        third_vaccines: third_vaccines,
-        total_vaccines: total_vaccines
+        first_vaccines: Number(first_vaccines),
+        second_vaccines: Number(second_vaccines),
+        third_vaccines: Number(third_vaccines),
+        total_vaccines: Number(total_vaccines)
     }
    
                     
