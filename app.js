@@ -13,7 +13,8 @@ const express = require('express'),
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
-
+function veriCek() {
+    
 const url = 'https://covid19.saglik.gov.tr/?lang=tr-TR';
 
 
@@ -63,8 +64,8 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
     });
 
 })
+};
 
 
-app.listen(PORT, () => console.log(`Example app listening on port!`));
 
 
