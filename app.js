@@ -49,13 +49,13 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
         total_vaccines: total_vaccines
     }
     
-    fs.readFileSync('dataset/data.json');
+    var duhan = fs.readFile('dataset/data.json');
                     
     const covidData = JSON.stringify(data, null, 4);
 
     console.log(data)
 
-    fs.writeFileSync('dataset/data.json', covidData, function (err) {
+    fs.writeFile('dataset/data.json', covidData, function (err) {
         if (err)
             console.log(err);
         else
