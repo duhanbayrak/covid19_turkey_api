@@ -48,8 +48,7 @@ request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url
         third_vaccines: third_vaccines,
         total_vaccines: total_vaccines
     }
-    
-    var duhan = fs.readFile('dataset/data.json');
+   
                     
     const covidData = JSON.stringify(data, null, 4);
 
