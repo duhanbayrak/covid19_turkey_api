@@ -5,5 +5,5 @@ Bu uygulama sayesinde Github Actions ile her 45 dakikada bir <a href="https://co
 <h3>Kaynaklar:</h3>
 
 <ul>
-    <li><a href="https://covid19.saglik.gov.tr/"></li>
+    <li><a href="https://covid19.saglik.gov.tr/">T.C Sağlık Bakanlığı Covid19</a></li>
 </ul>
