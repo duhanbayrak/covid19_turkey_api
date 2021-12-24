@@ -1,13 +1,13 @@
 {
-    "date": " 24 Aralık 2021, Cuma 19:00 ",
-    "todayCases": "18.910",
-    "todayDeaths": "133",
-    "todayRecovered": "20.351",
-    "todayTests": "356.106",
-    "first_vaccines_ratio": " % 91.47 ",
-    "second_vaccines_ratio": " % 82.75 ",
-    "first_vaccines": " 56.777.545 ",
-    "second_vaccines": " 51.365.908 ",
-    "third_vaccines": " 16.713.517 ",
-    "total_vaccines": " 127.994.715 "
+    "date": "",
+    "todayCases": "",
+    "todayDeaths": "",
+    "todayRecovered": "",
+    "todayTests": "",
+    "first_vaccines_ratio": "",
+    "second_vaccines_ratio": "",
+    "first_vaccines": "",
+    "second_vaccines": "",
+    "third_vaccines": "",
+    "total_vaccines": ""
 }
