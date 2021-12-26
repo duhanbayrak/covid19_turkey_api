@@ -8,12 +8,11 @@
 
 ![Ekran Resmi 2021-12-25 11 37 10](https://user-images.githubusercontent.com/47924611/147381079-ad585cac-aba0-4216-b7ae-549291096beb.png)
 
-<br>
 <h1>Worldmeters</h1>
 
 ![Ekran Resmi 2021-12-26 18 34 50](https://user-images.githubusercontent.com/47924611/147412925-17339256-9a58-4c43-bded-6b66cfbeec37.png)
 
-<br>
+
 <h2>Datasets</h2>
 <ul>
     <li><a href="https://raw.githubusercontent.com/duhanbayrak/covid19_turkey_api/master/dataset/data_bakanlik.json">Sağlık bakanlığı JSON</a></li>
