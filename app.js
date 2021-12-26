@@ -63,6 +63,7 @@ function getMinistryOfHealth() {
 
     })
 }
+getMinistryOfHealth();
 
 function getWorldmeters() {
 
@@ -115,7 +116,6 @@ function getWorldmeters() {
         });
 
 }
-getMinistryOfHealth();
 getWorldmeters();
 
 //app.listen(PORT, () => console.log(`Example app listening on port!`));
