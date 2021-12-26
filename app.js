@@ -64,7 +64,6 @@ function getMinistryOfHealth() {
     })
 }
 getMinistryOfHealth();
-
 function getWorldmeters() {
 
     const url = 'https://www.worldometers.info/coronavirus/';
@@ -83,19 +82,19 @@ function getWorldmeters() {
             data.splice(14, data.length);
             const worldmeters_data = {
                 countryName: data[0],
-                totalCases: data[1].replace(",", "."),
-                newCases: data[2].replace(",", "."),
-                totalDeaths: data[3].replace(",", "."),
-                newDeaths: data[4].replace(",", "."),
-                totalRecovered: data[5].replace(",", "."),
-                newRecovered: data[6].replace(",", "."),
-                activeCases: data[7].replace(",", "."),
-                critical: data[8].replace(",", "."),
-                totalCases_per_million: data[9].replace(",", "."),
-                totalDeaths_per_million: data[10].replace(",", "."),
-                totalTests: data[11].replace(",", "."),
-                totalTests_per_million: data[12].replace(",", "."),
-                population: data[13].replace(",", "."),
+                totalCases: data[1].replaceAll(",", "."),
+                newCases: data[2].replaceAll(",", "."),
+                totalDeaths: data[3].replaceAll(",", "."),
+                newDeaths: data[4].replaceAll(",", "."),
+                totalRecovered: data[5].replaceAll(",", "."),
+                newRecovered: data[6].replaceAll(",", "."),
+                activeCases: data[7].replaceAll(",", "."),
+                critical: data[8].replaceAll(",", "."),
+                totalCases_per_million: data[9].replaceAll(",", "."),
+                totalDeaths_per_million: data[10].replaceAll(",", "."),
+                totalTests: data[11].replaceAll(",", "."),
+                totalTests_per_million: data[12].replaceAll(",", "."),
+                population: data[13].replaceAll(",", "."),
             }
 
             const covidData = JSON.stringify(worldmeters_data);
@@ -116,6 +115,7 @@ function getWorldmeters() {
         });
 
 }
+
 getWorldmeters();
 
 //app.listen(PORT, () => console.log(`Example app listening on port!`));
