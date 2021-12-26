@@ -9,8 +9,8 @@
 <br>
 <h2>Datasets</h2>
 <ul>
-    <li><a href="https://raw.githubusercontent.com/duhanbayrak/covid19_turkey_api/master/dataset/data.json">Sağlık bakanlığı JSON</a></li>
-    <li><a href="https://raw.githubusercontent.com/duhanbayrak/covid19_turkey_api/master/dataset/data.json">Worldmeters JSON</a></li>
+    <li><a href="https://raw.githubusercontent.com/duhanbayrak/covid19_turkey_api/master/dataset/data_bakanlik.json">Sağlık bakanlığı JSON</a></li>
+    <li><a href="https://raw.githubusercontent.com/duhanbayrak/covid19_turkey_api/master/dataset/data_worldmeters.json">Worldmeters JSON</a></li>
 </ul>
 
 
