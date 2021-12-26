@@ -92,7 +92,7 @@ function getWorldmeters() {
                 critical: data[8].split(",").join("."),
                 totalCases_per_million: data[9].split(",").join("."),
                 totalDeaths_per_million: data[10].split(",").join("."),
-                totalTests: data[11].split(":").join("."),
+                totalTests: data[11].split(",").join("."),
                 totalTests_per_million: data[12].split(",").join("."),
                 population: data[13].split(",").join("."),
             }
