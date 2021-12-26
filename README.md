@@ -3,7 +3,7 @@
 <p>Scraper API ile Web Scraping</p>
 
 
-<p>Bu uygulama sayesinde Github Actions ile her 45 dakikada bir <a href="https://covid19.saglik.gov.tr/">T.C Sağlık Bakanlığı Covid 19</a> sitesini kazıyarak günlük verileri JSON formatında dataset dizinin altında kaydedilmektedir.</p>
+<p>Bu uygulama sayesinde Github Actions ile her 45 dakikada bir <a href="https://covid19.saglik.gov.tr/">T.C Sağlık Bakanlığı Covid 19</a> ve <a href="https://www.worldometers.info/coronavirus/">Worldmeters</a> sitelerini kazıyarak günlük verileri JSON formatında dataset dizinin altında kaydedilmektedir.</p>
 
 ![Ekran Resmi 2021-12-25 11 37 10](https://user-images.githubusercontent.com/47924611/147381079-ad585cac-aba0-4216-b7ae-549291096beb.png)
 <br>
