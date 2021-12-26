@@ -82,19 +82,19 @@ function getWorldmeters() {
             data.splice(14, data.length);
             const worldmeters_data = {
                 countryName: data[0],
-                totalCases: data[1].replaceAll("/,/g", "."),
-                newCases: data[2].replaceAll("/,/g", "."),
-                totalDeaths: data[3].replaceAll("/,/g", "."),
-                newDeaths: data[4].replaceAll("/,/g", "."),
-                totalRecovered: data[5].replaceAll("/,/g", "."),
-                newRecovered: data[6].replaceAll("/,/g", "."),
-                activeCases: data[7].replaceAll("/,/g", "."),
-                critical: data[8].replaceAll("/,/g", "."),
-                totalCases_per_million: data[9].replaceAll("/,/g", "."),
-                totalDeaths_per_million: data[10].replaceAll("/,/g", "."),
-                totalTests: data[11].replaceAll("/,/g", "."),
-                totalTests_per_million: data[12].replaceAll("/,/g", "."),
-                population: data[13].replaceAll("/,/g", "."),
+                totalCases: data[1].replaceAll(/,/g, "."),
+                newCases: data[2].replaceAll(/,/g, "."),
+                totalDeaths: data[3].replaceAll(/,/g, "."),
+                newDeaths: data[4].replaceAll(/,/g, "."),
+                totalRecovered: data[5].replaceAll(/,/g, "."),
+                newRecovered: data[6].replaceAll(/,/g, "."),
+                activeCases: data[7].replaceAll(/,/g, "."),
+                critical: data[8].replaceAll(/,/g, "."),
+                totalCases_per_million: data[9].replaceAll(/,/g, "."),
+                totalDeaths_per_million: data[10].replaceAll(/,/g, "."),
+                totalTests: data[11].replaceAll(/,/g, "."),
+                totalTests_per_million: data[12].replaceAll(/,/g, "."),
+                population: data[13].replaceAll(/,/g, "."),
             }
 
             const covidData = JSON.stringify(worldmeters_data);
