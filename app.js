@@ -63,7 +63,7 @@ function getMinistryOfHealth() {
 
     })
 }
-getMinistryOfHealth();
+
 function getWorldmeters() {
 
     const url = 'https://www.worldometers.info/coronavirus/';
@@ -82,19 +82,19 @@ function getWorldmeters() {
             data.splice(14, data.length);
             const worldmeters_data = {
                 countryName: data[0],
-                totalCases: data[1].replaceAll(",", "."),
-                newCases: data[2].replaceAll(",", "."),
-                totalDeaths: data[3].replaceAll(",", "."),
-                newDeaths: data[4].replaceAll(",", "."),
-                totalRecovered: data[5].replaceAll(",", "."),
-                newRecovered: data[6].replaceAll(",", "."),
-                activeCases: data[7].replaceAll(",", "."),
-                critical: data[8].replaceAll(",", "."),
-                totalCases_per_million: data[9].replaceAll(",", "."),
-                totalDeaths_per_million: data[10].replaceAll(",", "."),
-                totalTests: data[11].replaceAll(",", "."),
-                totalTests_per_million: data[12].replaceAll(",", "."),
-                population: data[13].replaceAll(",", "."),
+                totalCases: data[1].replaceAll("/,/g", "."),
+                newCases: data[2].replaceAll("/,/g", "."),
+                totalDeaths: data[3].replaceAll("/,/g", "."),
+                newDeaths: data[4].replaceAll("/,/g", "."),
+                totalRecovered: data[5].replaceAll("/,/g", "."),
+                newRecovered: data[6].replaceAll("/,/g", "."),
+                activeCases: data[7].replaceAll("/,/g", "."),
+                critical: data[8].replaceAll("/,/g", "."),
+                totalCases_per_million: data[9].replaceAll("/,/g", "."),
+                totalDeaths_per_million: data[10].replaceAll("/,/g", "."),
+                totalTests: data[11].replaceAll("/,/g", "."),
+                totalTests_per_million: data[12].replaceAll("/,/g", "."),
+                population: data[13].replaceAll("/,/g", "."),
             }
 
             const covidData = JSON.stringify(worldmeters_data);
@@ -115,7 +115,7 @@ function getWorldmeters() {
         });
 
 }
-
+getMinistryOfHealth();
 getWorldmeters();
 
 //app.listen(PORT, () => console.log(`Example app listening on port!`));
