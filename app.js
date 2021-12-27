@@ -99,7 +99,7 @@ function getWorldmeters() {
 
             const covidData = JSON.stringify(worldmeters_data);
 
-            console.log(covidData)
+            console.log(covidData);
 
             fs.writeFile('./dataset/data_worldmeters.json', covidData, function (err) {
                 if (err)
