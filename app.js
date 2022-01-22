@@ -7,7 +7,7 @@ const express = require('express'),
     request = require('request'),
     cheerio = require('cheerio'),
     axios = require('axios'),
-    fs = require('fs');
+    fs = require('fs')
 
 
 app.use(express.static("public"));
