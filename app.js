@@ -17,7 +17,7 @@ function getMinistryOfHealth() {
     const url = 'https://covid19.saglik.gov.tr/?lang=tr-TR';
 
 
-    request(`http://api.scraperapi.com/?api_key=e28d1175a925dd4a325f0a54ba5bdafd&url=${url}&render=true`, (err, response, body) => {
+    request(`http://api.scraperapi.com/?api_key=f89659e47f68f3cadea5411c2be1eb91&url=${url}&render=true`, (err, response, body) => {
 
         const html = response.body;
 
