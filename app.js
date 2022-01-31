@@ -73,7 +73,7 @@ function getWorldmeters() {
     axios.get(url)
         .then((response) => {
             let $ = cheerio.load(response.data);
-            $('tr:nth-child(15) td').each(function (i, e) {
+            $('tr:nth-child(16) td').each(function (i, e) {
                 data[i] = $(e).text();
             })
         })
