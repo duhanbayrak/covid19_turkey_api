@@ -62,7 +62,7 @@ function getMinistryOfHealth() {
         });
 
     })
-}
+};
 
 function getWorldmeters() {
 
